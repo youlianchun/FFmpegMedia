@@ -44,7 +44,6 @@
 		A967015521C495CB00F53F88 /* BufferQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A967015421C495CB00F53F88 /* BufferQueue.m */; };
 		A967015921C5236D00F53F88 /* PacketReader.m in Sources */ = {isa = PBXBuildFile; fileRef = A967015821C5236D00F53F88 /* PacketReader.m */; };
 		A967015C21C5243C00F53F88 /* PacketDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = A967015B21C5243C00F53F88 /* PacketDecoder.m */; };
-		A989C9BC21CCEB9100BDBF9E /* HWDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = A989C9BB21CCEB9100BDBF9E /* HWDecoder.m */; };
 		A98AEC8D21ABEB5C009F7221 /* AVObj.m in Sources */ = {isa = PBXBuildFile; fileRef = A98AEC8C21ABEB5C009F7221 /* AVObj.m */; };
 		A98F2B0C2195868B00BBEBEC /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = A98F2B0B2195868B00BBEBEC /* Queue.m */; };
 		A98F2B122196919B00BBEBEC /* GLRenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A98F2B112196919B00BBEBEC /* GLRenderView.m */; };
@@ -230,8 +229,6 @@
 		A967015A21C5243C00F53F88 /* PacketDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacketDecoder.h; sourceTree = "<group>"; };
 		A967015B21C5243C00F53F88 /* PacketDecoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PacketDecoder.m; sourceTree = "<group>"; };
 		A967015D21C5392E00F53F88 /* DecoderType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecoderType.h; sourceTree = "<group>"; };
-		A989C9BA21CCEB9000BDBF9E /* HWDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWDecoder.h; sourceTree = "<group>"; };
-		A989C9BB21CCEB9100BDBF9E /* HWDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWDecoder.m; sourceTree = "<group>"; };
 		A98AEC8B21ABEB5C009F7221 /* AVObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVObj.h; sourceTree = "<group>"; };
 		A98AEC8C21ABEB5C009F7221 /* AVObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVObj.m; sourceTree = "<group>"; };
 		A98F2B0A2195868B00BBEBEC /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
@@ -303,8 +300,6 @@
 		A90061DA21951527002795BF /* FFmpegMedia */ = {
 			isa = PBXGroup;
 			children = (
-				A989C9BA21CCEB9000BDBF9E /* HWDecoder.h */,
-				A989C9BB21CCEB9100BDBF9E /* HWDecoder.m */,
 				A98F2B092195867400BBEBEC /* BufferQueue */,
 				A900629A219515B8002795BF /* MediaPlayer */,
 				A90061DB21951527002795BF /* AppDelegate.h */,
@@ -772,7 +767,6 @@
 				A9BE4B1721AFE55E00D1F88F /* PlayerController.m in Sources */,
 				A90062C7219515B8002795BF /* AudioConvert.m in Sources */,
 				A98AEC8D21ABEB5C009F7221 /* AVObj.m in Sources */,
-				A989C9BC21CCEB9100BDBF9E /* HWDecoder.m in Sources */,
 				A967015921C5236D00F53F88 /* PacketReader.m in Sources */,
 				A90061E021951527002795BF /* ViewController.m in Sources */,
 				A98F2B0C2195868B00BBEBEC /* Queue.m in Sources */,
